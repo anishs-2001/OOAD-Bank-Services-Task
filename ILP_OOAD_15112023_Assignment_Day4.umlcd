@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_mfX2UIRpEe64nKHx9ujoHg">
+  <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mwjF4IRpEe64nKHx9ujoHg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oecLEIRpEe64nKHx9ujoHg" sourceAnchor="0.0,153.0" targetAnchor="710.0,150.0" target="_oecyJ4RpEe64nKHx9ujoHg" source="_qUrT8IRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0r_A4RpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_3CqNAIRqEe64nKHx9ujoHg" position="511.0,236.0"/>
+    <nameVisual xmi:id="_oecyIIRpEe64nKHx9ujoHg" text="">
+      <visualProperties xmi:id="_qXSjEIRpEe64nKHx9ujoHg" position="0.0,-28.999999999999943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oecyIYRpEe64nKHx9ujoHg" aggregationKind="NONE" name="product" navigable="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0jcIYRpEe64nKHx9ujoHg"/>
+      <visualProperties xmi:id="_qXR8AoRpEe64nKHx9ujoHg" position="-88.0,8.0"/>
+      <visibility xmi:id="_oecyIoRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_oecyI4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oecyJIRpEe64nKHx9ujoHg" aggregationKind="NONE" name="">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0smEIRpEe64nKHx9ujoHg"/>
+      <visualProperties xmi:id="_qXSjEYRpEe64nKHx9ujoHg" position="16.0,2.0"/>
+      <visibility xmi:id="_oecyJYRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_oecyJoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_o-aEkIRpEe64nKHx9ujoHg" sourceAnchor="0.0,36.0" targetAnchor="724.0,152.0" superClass="_qUrT8IRpEe64nKHx9ujoHg" subClass="_o-du8IRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz4twYRpEe64nKHx9ujoHg"/>
+    <bendpoints xmi:id="_qVmXoISCEe64nKHx9ujoHg" sourceX="-30" targetX="251" targetY="257"/>
+    <bendpoints xmi:id="_qVmXoYSCEe64nKHx9ujoHg" sourceX="-30" sourceY="-257" targetX="251"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_o-bSsIRpEe64nKHx9ujoHg" sourceAnchor="354.0,304.0" targetAnchor="343.0,0.0" target="_rG40AIRpEe64nKHx9ujoHg" source="_qUrT8IRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ubQYRpEe64nKHx9ujoHg"/>
+    <stereotypes xmi:id="_o-b5w4RpEe64nKHx9ujoHg" name="Reference">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0vCUIRpEe64nKHx9ujoHg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_o-b5wIRpEe64nKHx9ujoHg" text="">
+      <visualProperties xmi:id="_ntZbw4SBEe64nKHx9ujoHg" position="2.0,29.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_o-b5wYRpEe64nKHx9ujoHg" aggregationKind="NONE" name="">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ubQoRpEe64nKHx9ujoHg"/>
+      <visualProperties xmi:id="_ntZbwoSBEe64nKHx9ujoHg" position="9.0,7.0"/>
+      <visibility xmi:id="_o-cg0YRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_o-cg0IRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_o-b5woRpEe64nKHx9ujoHg" aggregationKind="NONE" name="serviceList" navigable="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0l4YYRpEe64nKHx9ujoHg"/>
+      <visualProperties xmi:id="_ntZbxISBEe64nKHx9ujoHg" position="-106.0,-62.0"/>
+      <stereotypes xmi:id="_tFEPkIR3Ee64nKHx9ujoHg" name="Generics"/>
+      <stereotypes xmi:id="_nGTmkISBEe64nKHx9ujoHg" name="Generics"/>
+      <stereotypes xmi:id="_pJ4A0ISBEe64nKHx9ujoHg" name="Generics"/>
+      <stereotypes xmi:id="_pJ5O8ISBEe64nKHx9ujoHg" name="Generics"/>
+      <visibility xmi:id="_o-cg04RpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_o-cg0oRpEe64nKHx9ujoHg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_pqtJ4IRpEe64nKHx9ujoHg" sourceAnchor="397.0,0.0" targetAnchor="353.0,305.0" target="_oecyJ4RpEe64nKHx9ujoHg" source="_pqu_EoRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0t0MIRpEe64nKHx9ujoHg"/>
+    <stereotypes xmi:id="_pquYAoRpEe64nKHx9ujoHg" name="Reference">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ubQIRpEe64nKHx9ujoHg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_pqtw8IRpEe64nKHx9ujoHg" text="">
+      <visualProperties xmi:id="_rbUx8IR0Ee64nKHx9ujoHg" position="2.0,7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_pquYAIRpEe64nKHx9ujoHg" aggregationKind="NONE" name="">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0t0MYRpEe64nKHx9ujoHg"/>
+      <visualProperties xmi:id="_rbUK4IR0Ee64nKHx9ujoHg" position="-21.0,-47.0"/>
+      <visibility xmi:id="_pquYBIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_pquYA4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_pquYAYRpEe64nKHx9ujoHg" aggregationKind="NONE" name="accountList" navigable="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0kDMoRpEe64nKHx9ujoHg"/>
+      <visualProperties xmi:id="_rbUx8YR0Ee64nKHx9ujoHg" position="-102.0,7.0"/>
+      <stereotypes xmi:id="_GlK_AIRzEe64nKHx9ujoHg" name="Generics"/>
+      <stereotypes xmi:id="_Jtn9sIRzEe64nKHx9ujoHg" name="Generics"/>
+      <stereotypes xmi:id="_Jtpy4IRzEe64nKHx9ujoHg" name="Generics"/>
+      <visibility xmi:id="_pqu_EIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_pquYBYRpEe64nKHx9ujoHg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_p_Al8IRpEe64nKHx9ujoHg" sourceAnchor="0.0,44.0" targetAnchor="724.0,152.0" superClass="_qUrT8IRpEe64nKHx9ujoHg" subClass="_p_B0EIRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz7KAIRpEe64nKHx9ujoHg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qp-OgIRpEe64nKHx9ujoHg" sourceAnchor="0.0,82.0" targetAnchor="724.0,152.0" superClass="_qUrT8IRpEe64nKHx9ujoHg" subClass="_qqADsIRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz8YIIRpEe64nKHx9ujoHg"/>
+    <bendpoints xmi:id="_qVm-sISCEe64nKHx9ujoHg" sourceX="-44" targetX="251" targetY="-205"/>
+    <bendpoints xmi:id="_qVm-sYSCEe64nKHx9ujoHg" sourceX="-44" sourceY="205" targetX="251"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_p_B0EIRpEe64nKHx9ujoHg" name="LoanAccount" generalizations="_p_Al8IRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxQQgIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_p_B0EYRpEe64nKHx9ujoHg" position="2686.0,464.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_p_B0EoRpEe64nKHx9ujoHg" label="+"/>
+    <attributes xmi:id="_p_B0E4RpEe64nKHx9ujoHg" defaultValue="0.03" name="chequeDepositRate">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0lRUIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_p_B0FIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_p_B0FYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_p_B0FoRpEe64nKHx9ujoHg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_p_B0F4RpEe64nKHx9ujoHg" name="LoanAccount">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0Nd4IRpEe64nKHx9ujoHg"/>
+      <keywords xmi:id="_p_B0GIRpEe64nKHx9ujoHg" keyword="create"/>
+      <visibility xmi:id="_p_B0GYRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_p_B0GoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_p_B0G4RpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0Nd5oRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_p_B0HIRpEe64nKHx9ujoHg" name="LoanAccount">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxQQgIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_p_B0HYRpEe64nKHx9ujoHg" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0Nd4YRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_p_B0HoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_p_B0H4RpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_p_B0IIRpEe64nKHx9ujoHg" name="productName">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0Nd4oRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_p_B0IYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_p_B0IoRpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_p_B0I4RpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0Nd44RpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_p_B0JIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_p_B0JYRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_o-du8IRpEe64nKHx9ujoHg" name="CurrentAccount" generalizations="_o-aEkIRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxNNMIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_o-du8YRpEe64nKHx9ujoHg" position="2643.0,729.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_o-du8oRpEe64nKHx9ujoHg" label="+"/>
+    <operations xmi:id="_o-du84RpEe64nKHx9ujoHg" name="CurrentAccount">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0HXQIRpEe64nKHx9ujoHg"/>
+      <keywords xmi:id="_o-du9IRpEe64nKHx9ujoHg" keyword="create"/>
+      <visibility xmi:id="_o-du9YRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_o-du9oRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_o-du94RpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0H-U4RpEe64nKHx9ujoHg"/>
+        <type xmi:id="_o-du-IRpEe64nKHx9ujoHg" name="CurrentAccount">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxNNMIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_o-du-YRpEe64nKHx9ujoHg" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0HXQYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_o-du-oRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_o-du-4RpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_o-du_IRpEe64nKHx9ujoHg" name="productName">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0HXQoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_o-du_YRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_o-du_oRpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_o-du_4RpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0H-UIRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_o-dvAIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_o-dvAYRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qUrT8IRpEe64nKHx9ujoHg" name="Product" abstractClass="true" associationsOut="_oecLEIRpEe64nKHx9ujoHg _o-bSsIRpEe64nKHx9ujoHg" subclassedBy="_o-aEkIRpEe64nKHx9ujoHg _p_Al8IRpEe64nKHx9ujoHg _qp-OgIRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxReoIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_qUrT8YRpEe64nKHx9ujoHg" position="1638.0,356.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qUrT8oRpEe64nKHx9ujoHg" label="+"/>
+    <attributes xmi:id="_qUrT84RpEe64nKHx9ujoHg" name="productCode">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0lRUoRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_qUrT9IRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_qUrT9YRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_qUrT9oRpEe64nKHx9ujoHg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qUrT94RpEe64nKHx9ujoHg" name="productName">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0l4YIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_qUrT-IRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_qUrT-YRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_qUrT-oRpEe64nKHx9ujoHg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qUrT-4RpEe64nKHx9ujoHg" name="serviceList">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0l4YYRpEe64nKHx9ujoHg"/>
+      <stereotypes xmi:id="_qUrT_IRpEe64nKHx9ujoHg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0mfcIRpEe64nKHx9ujoHg"/>
+      </stereotypes>
+      <visibility xmi:id="_qUrT_YRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_qUrT_oRpEe64nKHx9ujoHg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_nGRxYISBEe64nKHx9ujoHg" name="Service">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxW-MIRpEe64nKHx9ujoHg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qUrUAIRpEe64nKHx9ujoHg" name="Product">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0PTEIRpEe64nKHx9ujoHg"/>
+      <keywords xmi:id="_qUrUAYRpEe64nKHx9ujoHg" keyword="create"/>
+      <visibility xmi:id="_qUrUAoRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_qUrUA4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qUrUBIRpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0P6IYRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_qUrUBYRpEe64nKHx9ujoHg" name="Product">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxReoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qUrUBoRpEe64nKHx9ujoHg" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0PTEYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_qUrUB4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_qUrUCIRpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qUrUCYRpEe64nKHx9ujoHg" name="productName">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0PTEoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_qUrUCoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_qUrUC4RpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qUrUDIRpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0PTE4RpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_qUrUDYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_qUrUDoRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gKgeoIRsEe64nKHx9ujoHg" name="getProductCode">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_gKf3kIRsEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_gKgeoYRsEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_gKgeooRsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gKgeo4RsEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_gKf3kYRsEe64nKHx9ujoHg"/>
+        <type xmi:id="_gKgepIRsEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jLqigIRsEe64nKHx9ujoHg" name="setProductCode">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_jLp7cIRsEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_jLqigYRsEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_jLqigoRsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jLqig4RsEe64nKHx9ujoHg" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_jLp7cYRsEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_jLqihIRsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_jLqihYRsEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_laqwsoRsEe64nKHx9ujoHg" name="getProductName">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_laqwsIRsEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_laqws4RsEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_laqwtIRsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_laqwtYRsEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_laqwsYRsEe64nKHx9ujoHg"/>
+        <type xmi:id="_laqwtoRsEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_7hbMcYRsEe64nKHx9ujoHg" name="setProductName">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_7halYIRsEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_7hbMcoRsEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_7hbMc4RsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_7hbMdIRsEe64nKHx9ujoHg" name="productName">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_7hbMcIRsEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_7hbMdYRsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_7hbMdoRsEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__T_fIoRsEe64nKHx9ujoHg" name="getServiceList">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#__T_fIIRsEe64nKHx9ujoHg"/>
+      <visibility xmi:id="__T_fI4RsEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="__T_fJIRsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__T_fJYRsEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#__T_fIYRsEe64nKHx9ujoHg"/>
+        <type xmi:id="_gO45QIR1Ee64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EiTXEIRtEe64nKHx9ujoHg" name="setServiceList">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_EiSI8IRtEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_EiTXEYRtEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_EiTXEoRtEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EiTXE4RtEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_EiSwAYRtEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_EiTXFIRtEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_hsI6YIR1Ee64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oecyJ4RpEe64nKHx9ujoHg" name="Account" associationsIn="_oecLEIRpEe64nKHx9ujoHg _pqtJ4IRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxHtoIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_oecyKIRpEe64nKHx9ujoHg" position="683.0,359.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oecyKYRpEe64nKHx9ujoHg" label="+"/>
+    <attributes xmi:id="_oecyKoRpEe64nKHx9ujoHg" name="accountNo">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0i1EIRpEe64nKHx9ujoHg"/>
+      <visualProperties xmi:id="_YGgSUIR0Ee64nKHx9ujoHg"/>
+      <visibility xmi:id="_oecyK4RpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_oecyLIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_oecyLYRpEe64nKHx9ujoHg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oecyLoRpEe64nKHx9ujoHg" name="accountBalance">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0jcIIRpEe64nKHx9ujoHg"/>
+      <visualProperties xmi:id="_YGg5YIR0Ee64nKHx9ujoHg"/>
+      <visibility xmi:id="_oecyL4RpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_oecyMIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_oecyMYRpEe64nKHx9ujoHg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oecyMoRpEe64nKHx9ujoHg" name="product">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0jcIYRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_oecyM4RpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_oecyNIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_oecyNYRpEe64nKHx9ujoHg" name="Product">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxReoIRpEe64nKHx9ujoHg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oecyNoRpEe64nKHx9ujoHg" name="Account">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz1qcIRpEe64nKHx9ujoHg"/>
+      <keywords xmi:id="_oecyN4RpEe64nKHx9ujoHg" keyword="create"/>
+      <visibility xmi:id="_oecyOIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_oecyOYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_oecyOoRpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz2RgIRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_oecyO4RpEe64nKHx9ujoHg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxHtoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oecyPIRpEe64nKHx9ujoHg" name="accountNo">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz1qcYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_oecyPYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_oecyPoRpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oecyP4RpEe64nKHx9ujoHg" name="accountBalance">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz1qcoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_oecyQIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_oecyQYRpEe64nKHx9ujoHg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oecyQoRpEe64nKHx9ujoHg" name="product">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz1qc4RpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_oecyQ4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_oecyRIRpEe64nKHx9ujoHg" name="Product">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxReoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9LVbcIRqEe64nKHx9ujoHg" name="getAccountNo">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_9LU0YIRqEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_9LVbcYRqEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_9LVbcoRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9LVbc4RqEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_9LU0YYRqEe64nKHx9ujoHg"/>
+        <type xmi:id="_9LVbdIRqEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_EtiooIRrEe64nKHx9ujoHg" name="setAccountNo">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_EthagIRrEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_EtiooYRrEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_EtioooRrEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Etioo4RrEe64nKHx9ujoHg" name="accountNo">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_EtiBkIRrEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_EtiopIRrEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_EtiopYRrEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PMZNIIRrEe64nKHx9ujoHg" name="getAccountBalance">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_PMYmEIRrEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_PMZNIYRrEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_PMZNIoRrEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PMZNI4RrEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_PMYmEYRrEe64nKHx9ujoHg"/>
+        <type xmi:id="_PMZNJIRrEe64nKHx9ujoHg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SqiH8IRrEe64nKHx9ujoHg" name="setAccountBalance">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_Sqhg4IRrEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_SqiH8YRrEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_SqiH8oRrEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SqiH84RrEe64nKHx9ujoHg" name="accountBalance">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_Sqhg4YRrEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_SqiH9IRrEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_SqiH9YRrEe64nKHx9ujoHg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WHnS0oRrEe64nKHx9ujoHg" name="getProduct">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_WHnS0IRrEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_WHnS04RrEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_WHnS1IRrEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WHnS1YRrEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_WHnS0YRrEe64nKHx9ujoHg"/>
+        <type xmi:id="_WHnS1oRrEe64nKHx9ujoHg" name="Product">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxReoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_hQrR8YRrEe64nKHx9ujoHg" name="setProduct">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_hQqq4IRrEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_hQrR8oRrEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_hQrR84RrEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_hQrR9IRrEe64nKHx9ujoHg" name="product">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_hQrR8IRrEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_hQrR9YRrEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_hQrR9oRrEe64nKHx9ujoHg" name="Product">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxReoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pqu_EoRpEe64nKHx9ujoHg" name="Customer" associationsOut="_pqtJ4IRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxObUIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_pqu_E4RpEe64nKHx9ujoHg" position="639.0,861.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pqu_FIRpEe64nKHx9ujoHg" label="+"/>
+    <attributes xmi:id="_pqu_FYRpEe64nKHx9ujoHg" name="customerCode">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0kDMIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_pqu_FoRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_pqu_F4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_pqu_GIRpEe64nKHx9ujoHg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pqu_GYRpEe64nKHx9ujoHg" name="customerName">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0kDMYRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_pqu_GoRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_pqu_G4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_pqu_HIRpEe64nKHx9ujoHg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pqu_HYRpEe64nKHx9ujoHg" name="accountList">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0kDMoRpEe64nKHx9ujoHg"/>
+      <stereotypes xmi:id="_pqu_HoRpEe64nKHx9ujoHg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0kqQIRpEe64nKHx9ujoHg"/>
+      </stereotypes>
+      <visibility xmi:id="_pqu_H4RpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_pqu_IIRpEe64nKHx9ujoHg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_GlIiwIRzEe64nKHx9ujoHg" name="Account">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxHtoIRpEe64nKHx9ujoHg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_pqu_IoRpEe64nKHx9ujoHg" name="Customer">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0JMcIRpEe64nKHx9ujoHg"/>
+      <keywords xmi:id="_pqu_I4RpEe64nKHx9ujoHg" keyword="create"/>
+      <visibility xmi:id="_pqu_JIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_pqu_JYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pqu_JoRpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0KakoRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_pqu_J4RpEe64nKHx9ujoHg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxObUIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pqu_KIRpEe64nKHx9ujoHg" name="customerCode">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0JMcYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_pqu_KYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_pqu_KoRpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pqu_K4RpEe64nKHx9ujoHg" name="customerName">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0JzgIRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_pqu_LIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_pqu_LYRpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_pqu_LoRpEe64nKHx9ujoHg" name="accountList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0JzgYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_pqu_L4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_pqu_MIRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_DNUBcIRqEe64nKHx9ujoHg" name="getCustomerCode">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_DNTaYIRqEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_DNUBcYRqEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_DNUBcoRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_DNUBc4RqEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_DNTaYYRqEe64nKHx9ujoHg"/>
+        <type xmi:id="_DNUBdIRqEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LaMjUIRqEe64nKHx9ujoHg" name="setCustomerCode">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_LaKuIIRqEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_LaMjUYRqEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_LaMjUoRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LaMjU4RqEe64nKHx9ujoHg" name="customerCode">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_LaLVMIRqEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_LaMjVIRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_LaMjVYRqEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_T7P-YIRqEe64nKHx9ujoHg" name="getCustomerName">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_T7PXUIRqEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_T7P-YYRqEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_T7P-YoRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_T7P-Y4RqEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_T7PXUYRqEe64nKHx9ujoHg"/>
+        <type xmi:id="_T7P-ZIRqEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_XxyyIIRqEe64nKHx9ujoHg" name="setCustomerName">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_XxxkAIRqEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_XxyyIYRqEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_XxyyIoRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_XxyyI4RqEe64nKHx9ujoHg" name="customerName">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_XxyLEIRqEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_XxyyJIRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_XxyyJYRqEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dgzjYIRqEe64nKHx9ujoHg" name="getAccountList">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_dgy8UIRqEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_dgzjYYRqEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_dgzjYoRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dgzjY4RqEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_dgy8UYRqEe64nKHx9ujoHg"/>
+        <type xmi:id="_S5Y3wIR1Ee64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iyEosIRqEe64nKHx9ujoHg" name="setAccountList">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_iyEBoIRqEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_iyEosYRqEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_iyEosoRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_iyEos4RqEe64nKHx9ujoHg" name="accountList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_iyEBoYRqEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_iyEotIRqEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_VPJOMIR1Ee64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rezkwIRpEe64nKHx9ujoHg" name="AccountConfiguration">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxZacIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_rezkwYRpEe64nKHx9ujoHg" position="620.0,1230.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rezkwoRpEe64nKHx9ujoHg" label="+"/>
+    <operations xmi:id="_rezkw4RpEe64nKHx9ujoHg" name="displayCustomer" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz-NUYRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_rezkxIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_rezkxYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rezkxoRpEe64nKHx9ujoHg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz-0YIRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_rezkx4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_rezkyIRpEe64nKHx9ujoHg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxObUIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rezkyYRpEe64nKHx9ujoHg" name="getTransactionCost" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz-0YYRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_rezkyoRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_rezky4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rezkzIRpEe64nKHx9ujoHg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz-0YoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_rezkzYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_rezkzoRpEe64nKHx9ujoHg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxObUIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rezkz4RpEe64nKHx9ujoHg" name="createAccount" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0TkgIRpEe64nKHx9ujoHg"/>
+      <stereotypes xmi:id="_rezk0IRpEe64nKHx9ujoHg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ULkIRpEe64nKHx9ujoHg"/>
+      </stereotypes>
+      <visibility xmi:id="_rezk0YRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_rezk0oRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rezk04RpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ULkYRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_rezk1IRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rezk1YRpEe64nKHx9ujoHg" name="productList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0TkgYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_re0L0IRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_re0L0YRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_re0L0oRpEe64nKHx9ujoHg" name="accountList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0TkgoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_re0L04RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_re0L1IRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_re0L1YRpEe64nKHx9ujoHg" name="createCustomer" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0WAwIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_re0L1oRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_re0L14RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_re0L2IRpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0WAxIRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_re0L2YRpEe64nKHx9ujoHg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxObUIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_re0L2oRpEe64nKHx9ujoHg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0WAwYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_re0L24RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_re0L3IRpEe64nKHx9ujoHg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxObUIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_re0L3YRpEe64nKHx9ujoHg" name="productList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0WAwoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_re0L3oRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_re0L34RpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_re0L4IRpEe64nKHx9ujoHg" name="accountList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0WAw4RpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_re0L4YRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_re0L4oRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rG40AIRpEe64nKHx9ujoHg" name="Service" associationsIn="_o-bSsIRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxW-MIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_rG40AYRpEe64nKHx9ujoHg" position="1649.0,818.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rG40AoRpEe64nKHx9ujoHg" label="+"/>
+    <attributes xmi:id="_rG40A4RpEe64nKHx9ujoHg" name="serviceCode">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0nGgYRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_rG40BIRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_rG40BYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_rG40BoRpEe64nKHx9ujoHg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rG40B4RpEe64nKHx9ujoHg" name="serviceName">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0nGgoRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_rG40CIRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_rG40CYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_rG40CoRpEe64nKHx9ujoHg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_rG40C4RpEe64nKHx9ujoHg" name="serviceRate">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ntkIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_rG40DIRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_rG40DYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_rG40DoRpEe64nKHx9ujoHg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_rG40D4RpEe64nKHx9ujoHg" name="Service">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxYMUIRpEe64nKHx9ujoHg"/>
+      <keywords xmi:id="_rG40EIRpEe64nKHx9ujoHg" keyword="create"/>
+      <visibility xmi:id="_rG40EYRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_rG40EoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rG40E4RpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxYMVoRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_rG40FIRpEe64nKHx9ujoHg" name="Service">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxW-MIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rG40FYRpEe64nKHx9ujoHg" name="serviceCode">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxYMUYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_rG40FoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_rG40F4RpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rG40GIRpEe64nKHx9ujoHg" name="serviceName">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxYMUoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_rG40GYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_rG40GoRpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rG40G4RpEe64nKHx9ujoHg" name="serviceRate">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxYMU4RpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_rG40HIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_rG40HYRpEe64nKHx9ujoHg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_XqGHUIRtEe64nKHx9ujoHg" name="getServiceCode">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_XqFgQIRtEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_XqGHUYRtEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_XqGHUoRtEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_XqGHU4RtEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_XqFgQYRtEe64nKHx9ujoHg"/>
+        <type xmi:id="_XqGHVIRtEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bzY38IRtEe64nKHx9ujoHg" name="setServiceCode">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_bzYQ4IRtEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_bzY38YRtEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_bzY38oRtEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bzY384RtEe64nKHx9ujoHg" name="serviceCode">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_bzYQ4YRtEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_bzY39IRtEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_bzY39YRtEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fVZmIIRtEe64nKHx9ujoHg" name="getServiceName">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_fVYYAIRtEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_fVZmIYRtEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_fVZmIoRtEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_hFcAYIRtEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_hFayQIRtEe64nKHx9ujoHg"/>
+        <type xmi:id="_hFcAYYRtEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k_n-AIRtEe64nKHx9ujoHg" name="setServiceName">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_k_nW8IRtEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_k_n-AYRtEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_k_n-AoRtEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k_n-A4RtEe64nKHx9ujoHg" name="serviceName">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_k_nW8YRtEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_k_n-BIRtEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_k_n-BYRtEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pElBMIRtEe64nKHx9ujoHg" name="getServiceRate">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_pEkaIIRtEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_pElBMYRtEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_pElBMoRtEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pElBM4RtEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_pEkaIYRtEe64nKHx9ujoHg"/>
+        <type xmi:id="_pElBNIRtEe64nKHx9ujoHg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6QNGEIR1Ee64nKHx9ujoHg" name="setServiceRate">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_6QMfAIR1Ee64nKHx9ujoHg"/>
+      <visibility xmi:id="_6QNGEYR1Ee64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_6QNGEoR1Ee64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_6QNGE4R1Ee64nKHx9ujoHg" name="serviceRate">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_6QMfAYR1Ee64nKHx9ujoHg"/>
+        <cardinality xmi:id="_6QNGFIR1Ee64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_6QNGFYR1Ee64nKHx9ujoHg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rtFRUIRpEe64nKHx9ujoHg" name="ManageAccountConfiguration">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxbPoIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_rtFRUYRpEe64nKHx9ujoHg" position="1772.0,1235.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rtFRUoRpEe64nKHx9ujoHg" label="+"/>
+    <operations xmi:id="_rtFRU4RpEe64nKHx9ujoHg" name="accountManagement" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ACgIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_rtFRVIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_rtFRVYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rtFRVoRpEe64nKHx9ujoHg" name="customer">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ACgYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_rtFRV4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_rtFRWIRpEe64nKHx9ujoHg" name="Customer">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxObUIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rtFRWYRpEe64nKHx9ujoHg" name="withdrawMoney" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ApkIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_rtFRWoRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_rtFRW4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rtFRXIRpEe64nKHx9ujoHg" name="selectedAccount">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ApkYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_rtFRXYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_rtFRXoRpEe64nKHx9ujoHg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxHtoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rtFRX4RpEe64nKHx9ujoHg" name="depositMoney" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0BQoIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_rtFRYIRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_rtFRYYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rtFRYoRpEe64nKHx9ujoHg" name="selectedAccount">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0BQoYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_rtFRY4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_rtFRZIRpEe64nKHx9ujoHg" name="Account">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxHtoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sCSsUIRpEe64nKHx9ujoHg" name="ProductConfiguration">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxcdwIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_sCSsUYRpEe64nKHx9ujoHg" position="2760.0,1037.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sCSsUoRpEe64nKHx9ujoHg" label="+"/>
+    <operations xmi:id="_sCSsU4RpEe64nKHx9ujoHg" name="createService" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0YdAIRpEe64nKHx9ujoHg"/>
+      <stereotypes xmi:id="_sCSsVIRpEe64nKHx9ujoHg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ZEEIRpEe64nKHx9ujoHg"/>
+      </stereotypes>
+      <visibility xmi:id="_sCSsVYRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_sCSsVoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sCSsV4RpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ZEEYRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_sCSsWIRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sCSsWYRpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0YdAYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_sCSsWoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_sCSsW4RpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sCSsXIRpEe64nKHx9ujoHg" name="displayService" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0aSMIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_sCSsXYRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_sCSsXoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_sCSsX4RpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0aSMYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_sCSsYIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_sCSsYYRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sCSsYoRpEe64nKHx9ujoHg" name="createProduct" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0bgUIRpEe64nKHx9ujoHg"/>
+      <stereotypes xmi:id="_sCSsY4RpEe64nKHx9ujoHg" name="Generics">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0cHYIRpEe64nKHx9ujoHg"/>
+      </stereotypes>
+      <visibility xmi:id="_sCSsZIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_sCSsZYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sCSsZoRpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0cHYYRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_sCSsZ4RpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sCSsaIRpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0bgUYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_sCSsaYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_sCSsaoRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sCSsa4RpEe64nKHx9ujoHg" name="createLoanAccount" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0cucYRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_sCSsbIRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_sCSsbYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sCSsboRpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0dVgIRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_sCSsb4RpEe64nKHx9ujoHg" name="Product">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxReoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sCSscIRpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0cucoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_sCSscYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_sCSscoRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sCSsc4RpEe64nKHx9ujoHg" name="createCurrentAccount" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0d8kYRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_sCSsdIRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_sCSsdYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sCSsdoRpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0ejoIRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_sCSsd4RpEe64nKHx9ujoHg" name="Product">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxReoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sCSseIRpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0d8koRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_sCSseYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_sCSseoRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sCSse4RpEe64nKHx9ujoHg" name="createSavingsMaxAccount" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0fKsYRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_sCSsfIRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_sCSsfYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sCSsfoRpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0fKs4RpEe64nKHx9ujoHg"/>
+        <type xmi:id="_sCSsf4RpEe64nKHx9ujoHg" name="Product">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxReoIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sCSsgIRpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0fKsoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_sCSsgYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_sCSsgoRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sCSsg4RpEe64nKHx9ujoHg" name="displayproduct" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0gY0IRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_sCSshIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_sCSshYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_sCSshoRpEe64nKHx9ujoHg" name="productList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0gY0YRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_sCSsh4RpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_sCSsiIRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qqADsIRpEe64nKHx9ujoHg" name="SavingsMaxAccount" generalizations="_qp-OgIRpEe64nKHx9ujoHg">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxVJAIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_qqADsYRpEe64nKHx9ujoHg" position="2657.0,221.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qqADsoRpEe64nKHx9ujoHg" label="+"/>
+    <attributes xmi:id="_qqADs4RpEe64nKHx9ujoHg" defaultValue="1000" name="minBalance">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0mfcYRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_qqADtIRpEe64nKHx9ujoHg" label="-"/>
+      <cardinality xmi:id="_qqADtYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <type xmi:id="_qqADtoRpEe64nKHx9ujoHg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qqADt4RpEe64nKHx9ujoHg" name="SavingsMaxAccount">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0RvUIRpEe64nKHx9ujoHg"/>
+      <keywords xmi:id="_qqADuIRpEe64nKHx9ujoHg" keyword="create"/>
+      <visibility xmi:id="_qqADuYRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_qqADuoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qqADu4RpEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0RvVoRpEe64nKHx9ujoHg"/>
+        <type xmi:id="_qqADvIRpEe64nKHx9ujoHg" name="SavingsMaxAccount">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxVJAIRpEe64nKHx9ujoHg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qqADvYRpEe64nKHx9ujoHg" name="productCode">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0RvUYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_qqADvoRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_qqADv4RpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qqADwIRpEe64nKHx9ujoHg" name="productName">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0RvUoRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_qqADwYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_qqADwoRpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qqADw4RpEe64nKHx9ujoHg" name="serviceList">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_m0RvU4RpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_qqADxIRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_qqADxYRpEe64nKHx9ujoHg" name="ArrayList">
+          <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mz24kIRpEe64nKHx9ujoHg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SkPdQIRsEe64nKHx9ujoHg" name="getMinBalance">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_SkO2MIRsEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_SkPdQYRsEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_SkPdQoRsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SkPdQ4RsEe64nKHx9ujoHg">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_SkO2MYRsEe64nKHx9ujoHg"/>
+        <type xmi:id="_SkPdRIRsEe64nKHx9ujoHg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YaL88IRsEe64nKHx9ujoHg" name="setMinBalance">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_YaLV4IRsEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_YaL88YRsEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_YaL88oRsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YaL884RsEe64nKHx9ujoHg" name="minBalance">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_YaLV4YRsEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_YaL89IRsEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+        <type xmi:id="_YaL89YRsEe64nKHx9ujoHg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sUzYoIRpEe64nKHx9ujoHg" name="AccountUtility">
+    <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxgIIIRpEe64nKHx9ujoHg"/>
+    <visualProperties xmi:id="_sUzYoYRpEe64nKHx9ujoHg" position="1883.0,217.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sUzYooRpEe64nKHx9ujoHg" label="+"/>
+    <operations xmi:id="_sUzYo4RpEe64nKHx9ujoHg" name="main" staticOperation="true">
+      <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxhWQIRpEe64nKHx9ujoHg"/>
+      <visibility xmi:id="_sUzYpIRpEe64nKHx9ujoHg" label="+"/>
+      <cardinality xmi:id="_sUzYpYRpEe64nKHx9ujoHg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_sUzYpoRpEe64nKHx9ujoHg" name="args">
+        <modelElement href="ILP_OOAD_15112023_Assignment_Day4.uml#_mxhWQYRpEe64nKHx9ujoHg"/>
+        <cardinality xmi:id="_sUzYp4RpEe64nKHx9ujoHg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_sUzYqIRpEe64nKHx9ujoHg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
